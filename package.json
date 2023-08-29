@@ -1,0 +1,26 @@
+{
+  "name": "customer_order_api",
+  "version": "1.0.0",
+  "description": "customer order api with mongo db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r dotenv/config ./src/bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "faker": "^6.6.6",
+    "http-errors": "^2.0.0",
+    "joi": "^17.10.0",
+    "mongoose": "^7.4.5",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
