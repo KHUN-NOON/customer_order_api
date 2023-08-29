@@ -23,7 +23,7 @@ npm start
 
 endpoint prefix `/api/v1`
 
-Example: `http:localhost:portname/api/v1`
+Example: `http://localhost:portname/api/v1`
 
 Endpoints              | Method  | Description
 -----------------------|-------- |--------------------------------------------------------------------------
@@ -32,4 +32,9 @@ Endpoints              | Method  | Description
 `/customers`           | `POST`  | Create customer
 `/customers/:id`       | `PATCH` | Update customer
 `/customers/:id`       | `DELETE`| Delete customer by id
+`/shipping_fees`       | `GET`   | Get all shipping fees with pagination
+`/shipping_fees/:id`   | `GET`   | Get shipping fee by id
+`/shipping_fees`       | `POST`  | Create shipping fee
+`/shipping_fees/:id`   | `PATCH` | Update shipping fee
+`/shipping_fees/:id`   | `DELETE`| Delete shipping fee by id
 
