@@ -38,3 +38,5 @@ Endpoints              | Method  | Description
 `/shipping_fees/:id`   | `PATCH` | Update shipping fee
 `/shipping_fees/:id`   | `DELETE`| Delete shipping fee by id
 
+The rest of the api routes are inside `src/routes/v1` folder.
+
